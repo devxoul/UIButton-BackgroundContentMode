@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03138AA01C06FAAE00717129 /* UIButton+BackgroundContentMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 03138A9F1C06FAAE00717129 /* UIButton+BackgroundContentMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03138AAA1C06FAFB00717129 /* UIButton+BackgroundContentMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 03138AA81C06FAFB00717129 /* UIButton+BackgroundContentMode.m */; };
+		03138AB31C06FE8C00717129 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03138AB21C06FE8C00717129 /* main.m */; };
+		03138AB61C06FE8C00717129 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03138AB51C06FE8C00717129 /* AppDelegate.m */; };
+		03138AB91C06FE8C00717129 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03138AB81C06FE8C00717129 /* ViewController.m */; };
+		03138ABC1C06FE8C00717129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03138ABA1C06FE8C00717129 /* Main.storyboard */; };
+		03138ABE1C06FE8C00717129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03138ABD1C06FE8C00717129 /* Assets.xcassets */; };
+		03138AC11C06FE8D00717129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03138ABF1C06FE8D00717129 /* LaunchScreen.storyboard */; };
+		03138AC61C06FF5F00717129 /* UIButton_BackgroundContentMode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03138A9C1C06FAAE00717129 /* UIButton_BackgroundContentMode.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03138A9C1C06FAAE00717129 /* UIButton_BackgroundContentMode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIButton_BackgroundContentMode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03138A9F1C06FAAE00717129 /* UIButton+BackgroundContentMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+BackgroundContentMode.h"; sourceTree = "<group>"; };
+		03138AA11C06FAAE00717129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03138AA81C06FAFB00717129 /* UIButton+BackgroundContentMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BackgroundContentMode.m"; sourceTree = "<group>"; };
+		03138AAF1C06FE8C00717129 /* UIButtonBackgroundContentModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIButtonBackgroundContentModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03138AB21C06FE8C00717129 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03138AB41C06FE8C00717129 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03138AB51C06FE8C00717129 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03138AB71C06FE8C00717129 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03138AB81C06FE8C00717129 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03138ABB1C06FE8C00717129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03138ABD1C06FE8C00717129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03138AC01C06FE8D00717129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03138AC21C06FE8D00717129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03138A981C06FAAE00717129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03138AAC1C06FE8C00717129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03138AC61C06FF5F00717129 /* UIButton_BackgroundContentMode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03138A921C06FAAE00717129 = {
+			isa = PBXGroup;
+			children = (
+				03138A9E1C06FAAE00717129 /* UIButton+BackgroundContentMode */,
+				03138AB01C06FE8C00717129 /* UIButtonBackgroundContentModeDemo */,
+				03138A9D1C06FAAE00717129 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03138A9D1C06FAAE00717129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03138A9C1C06FAAE00717129 /* UIButton_BackgroundContentMode.framework */,
+				03138AAF1C06FE8C00717129 /* UIButtonBackgroundContentModeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03138A9E1C06FAAE00717129 /* UIButton+BackgroundContentMode */ = {
+			isa = PBXGroup;
+			children = (
+				03138A9F1C06FAAE00717129 /* UIButton+BackgroundContentMode.h */,
+				03138AA81C06FAFB00717129 /* UIButton+BackgroundContentMode.m */,
+				03138AA11C06FAAE00717129 /* Info.plist */,
+			);
+			path = "UIButton+BackgroundContentMode";
+			sourceTree = "<group>";
+		};
+		03138AB01C06FE8C00717129 /* UIButtonBackgroundContentModeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				03138AB41C06FE8C00717129 /* AppDelegate.h */,
+				03138AB51C06FE8C00717129 /* AppDelegate.m */,
+				03138AB71C06FE8C00717129 /* ViewController.h */,
+				03138AB81C06FE8C00717129 /* ViewController.m */,
+				03138ABA1C06FE8C00717129 /* Main.storyboard */,
+				03138ABD1C06FE8C00717129 /* Assets.xcassets */,
+				03138ABF1C06FE8D00717129 /* LaunchScreen.storyboard */,
+				03138AC21C06FE8D00717129 /* Info.plist */,
+				03138AB11C06FE8C00717129 /* Supporting Files */,
+			);
+			path = UIButtonBackgroundContentModeDemo;
+			sourceTree = "<group>";
+		};
+		03138AB11C06FE8C00717129 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03138AB21C06FE8C00717129 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03138A991C06FAAE00717129 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03138AA01C06FAAE00717129 /* UIButton+BackgroundContentMode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03138A9B1C06FAAE00717129 /* UIButton+BackgroundContentMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03138AA41C06FAAE00717129 /* Build configuration list for PBXNativeTarget "UIButton+BackgroundContentMode" */;
+			buildPhases = (
+				03138A971C06FAAE00717129 /* Sources */,
+				03138A981C06FAAE00717129 /* Frameworks */,
+				03138A991C06FAAE00717129 /* Headers */,
+				03138A9A1C06FAAE00717129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIButton+BackgroundContentMode";
+			productName = "UIButton+BackgroundContentMode";
+			productReference = 03138A9C1C06FAAE00717129 /* UIButton_BackgroundContentMode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		03138AAE1C06FE8C00717129 /* UIButtonBackgroundContentModeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03138AC31C06FE8D00717129 /* Build configuration list for PBXNativeTarget "UIButtonBackgroundContentModeDemo" */;
+			buildPhases = (
+				03138AAB1C06FE8C00717129 /* Sources */,
+				03138AAC1C06FE8C00717129 /* Frameworks */,
+				03138AAD1C06FE8C00717129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIButtonBackgroundContentModeDemo;
+			productName = UIButtonBackgroundContentModeDemo;
+			productReference = 03138AAF1C06FE8C00717129 /* UIButtonBackgroundContentModeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03138A931C06FAAE00717129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Suyeol Jeon";
+				TargetAttributes = {
+					03138A9B1C06FAAE00717129 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					03138AAE1C06FE8C00717129 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 03138A961C06FAAE00717129 /* Build configuration list for PBXProject "UIButton+BackgroundContentMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03138A921C06FAAE00717129;
+			productRefGroup = 03138A9D1C06FAAE00717129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03138A9B1C06FAAE00717129 /* UIButton+BackgroundContentMode */,
+				03138AAE1C06FE8C00717129 /* UIButtonBackgroundContentModeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03138A9A1C06FAAE00717129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03138AAD1C06FE8C00717129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03138AC11C06FE8D00717129 /* LaunchScreen.storyboard in Resources */,
+				03138ABE1C06FE8C00717129 /* Assets.xcassets in Resources */,
+				03138ABC1C06FE8C00717129 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03138A971C06FAAE00717129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03138AAA1C06FAFB00717129 /* UIButton+BackgroundContentMode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03138AAB1C06FE8C00717129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03138AB91C06FE8C00717129 /* ViewController.m in Sources */,
+				03138AB61C06FE8C00717129 /* AppDelegate.m in Sources */,
+				03138AB31C06FE8C00717129 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03138ABA1C06FE8C00717129 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03138ABB1C06FE8C00717129 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03138ABF1C06FE8D00717129 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03138AC01C06FE8D00717129 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03138AA21C06FAAE00717129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03138AA31C06FAAE00717129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		03138AA51C06FAAE00717129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "UIButton+BackgroundContentMode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.xoul.UIButton-BackgroundContentMode";
+				PRODUCT_NAME = UIButton_BackgroundContentMode;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		03138AA61C06FAAE00717129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "UIButton+BackgroundContentMode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.xoul.UIButton-BackgroundContentMode";
+				PRODUCT_NAME = UIButton_BackgroundContentMode;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		03138AC41C06FE8D00717129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIButtonBackgroundContentModeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.xoul.UIButtonBackgroundContentModeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03138AC51C06FE8D00717129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIButtonBackgroundContentModeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.xoul.UIButtonBackgroundContentModeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03138A961C06FAAE00717129 /* Build configuration list for PBXProject "UIButton+BackgroundContentMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03138AA21C06FAAE00717129 /* Debug */,
+				03138AA31C06FAAE00717129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03138AA41C06FAAE00717129 /* Build configuration list for PBXNativeTarget "UIButton+BackgroundContentMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03138AA51C06FAAE00717129 /* Debug */,
+				03138AA61C06FAAE00717129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03138AC31C06FE8D00717129 /* Build configuration list for PBXNativeTarget "UIButtonBackgroundContentModeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03138AC41C06FE8D00717129 /* Debug */,
+				03138AC51C06FE8D00717129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03138A931C06FAAE00717129 /* Project object */;
+}
